@@ -6,7 +6,7 @@ Repositorio fullstack para la prueba técnica de Wayru: una aplicación de lista
 
 - Backend: Node.js, Koa, TypeScript, Prisma, PostgreSQL (Neon)
 - Frontend: Next.js, React, TypeScript
-- Infra: Deploy en servicios gratuitos ()
+- Infra: Deploy en servicios gratuitos (Render y Vercel)
 
 ## ✅ Funcionalidad
 
@@ -55,8 +55,8 @@ La app estará disponible en `http://localhost:3001`.
 
 ## 🌐 Deploy
 
-- Frontend (Next.js): URL pública -> ``
-- Backend (Koa): URL pública -> ``
+- Frontend (Next.js): URL pública -> `https://wayru-prueba.vercel.app/`
+- Backend (Koa): URL pública -> `https://wayru-prueba.onrender.com`
 - Base de datos: Neon (PostgreSQL)
 
 ## ℹ️ Notas
