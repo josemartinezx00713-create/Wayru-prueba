@@ -55,7 +55,7 @@ La app estará disponible en `http://localhost:3001`.
 
 ## 🌐 Deploy
 
-- Frontend (Next.js): URL pública -> `https://wayru-prueba.vercel.app/`
+- Frontend (Next.js): URL pública -> `https://wayru-pruebaa.vercel.app/`
 - Backend (Koa): URL pública -> `https://wayru-prueba.onrender.com`
 - Base de datos: Neon (PostgreSQL)
 
