@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:3000';
+const BACKEND_URL =
+  process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000';
 
 export async function PUT(
   _req: NextRequest,
@@ -27,11 +28,9 @@ export async function DELETE(
   });
 
   if (res.status === 204) {
-
     return new Response(null, { status: 204 });
   }
 
   const data = await res.json();
   return NextResponse.json(data, { status: res.status });
 }
-
